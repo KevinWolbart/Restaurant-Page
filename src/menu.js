@@ -17,6 +17,16 @@ const Menu = (content = document.getElementById('content')) => {
     let appDish3Name = document.createElement('h3');
     let appDish3Des = document.createElement('p');
 
+    appHead.textContent = "Appetizers";
+    appDish1Name.textContent = "German Pretzel";
+    appDish1Des.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
+    appDish2Name.textContent = "Salad";
+    appDish2Des.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
+    appDish3Name.textContent = "Fried Green Beans";
+    appDish3Des.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
     let mains = document.createElement('div');
     mains.classList.add('content-wrap');
     let mainHead = document.createElement('h2');
@@ -33,6 +43,16 @@ const Menu = (content = document.getElementById('content')) => {
     let mainDish3Name = document.createElement('h3');
     let mainDish3Des = document.createElement('p');
 
+    mainHead.textContent = "Mains";
+    mainDish1Name.textContent = "Ribeye";
+    mainDish1Des.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
+    mainDish2Name.textContent = "NY Strip";
+    mainDish2Des.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
+    mainDish3Name.textContent = "Prime Rib";
+    mainDish3Des.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
     let desserts = document.createElement('div');
     desserts.classList.add('content-wrap');
     let desHead = document.createElement('h2');
@@ -48,6 +68,16 @@ const Menu = (content = document.getElementById('content')) => {
     desDish3.classList.add('content-wrap');
     let desDish3Name = document.createElement('h3');
     let desDish3Des = document.createElement('p');
+
+    desHead.textContent = "Desserts";
+    desDish1Name.textContent = "Ice cream";
+    desDish1Des.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
+    desDish2Name.textContent = "Bread Pudding";
+    desDish2Des.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
+
+    desDish3Name.textContent = "Chocolate Cake";
+    desDish3Des.textContent = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.";
 
     appDish1.appendChild(appDish1Name);
     appDish1.appendChild(appDish1Des);
